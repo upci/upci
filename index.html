@@ -48,7 +48,7 @@
 <h3>
 <a name="modelo-estrutural" class="anchor" href="#modelo-estrutural"><span class="octicon octicon-link"></span></a>Modelo Estrutural</h3>
 
-<p><img src="/Documenta%C3%A7%C3%A3o/ModeloEstrutural.png" alt="Structural Model of the Microprocessor" title="Structural Model of the Microprocessor"></p>
+<p><img src="/upci//Documenta%C3%A7%C3%A3o/ModeloEstrutural.png" alt="Structural Model of the Microprocessor" title="Structural Model of the Microprocessor"></p>
 
 <p>O modelo estrutural do processador implementado neste projeto segue o que está mostrado na imagem acima. Possui uma Unidade de Controle, um contador de programa, um acumulador, um registrador de dados, um de endereços e um de instruções, uma memória interna e um barramento que passam dados e endereços de memória.</p>
 
@@ -131,7 +131,7 @@
 </table><h3>
 <a name="program-counter-pc" class="anchor" href="#program-counter-pc"><span class="octicon octicon-link"></span></a>Program Counter (PC)</h3>
 
-<p><img src="/Documenta%C3%A7%C3%A3o/PC.png" alt="PC" title="PC"></p>
+<p><img src="/upci//Documenta%C3%A7%C3%A3o/PC.png" alt="PC" title="PC"></p>
 
 <p>O módulo do PC deve conter 6 portas de entrada/saída. São elas:  </p>
 
@@ -151,7 +151,7 @@
 <h3>
 <a name="instruction-register" class="anchor" href="#instruction-register"><span class="octicon octicon-link"></span></a>Instruction Register</h3>
 
-<p><img src="/Documenta%C3%A7%C3%A3o/IR.png" alt="IR" title="IR"></p>
+<p><img src="/upci//Documenta%C3%A7%C3%A3o/IR.png" alt="IR" title="IR"></p>
 
 <p>O módulo do IR deve conter 6 portas de entrada/saída. São elas:  </p>
 
@@ -171,7 +171,7 @@
 <h3>
 <a name="arithmetic-logic-unit-alu" class="anchor" href="#arithmetic-logic-unit-alu"><span class="octicon octicon-link"></span></a>Arithmetic Logic Unit (ALU)</h3>
 
-<p><img src="/Documenta%C3%A7%C3%A3o/ALU.png" alt="ALU" title="ALU"></p>
+<p><img src="/upci//Documenta%C3%A7%C3%A3o/ALU.png" alt="ALU" title="ALU"></p>
 
 <p>O módulo de ALU (que compreende, na verdade, a ALU propriamente dita e o registrador ACC) contém 7 portas de entrada/saída. São elas:  </p>
 
@@ -236,7 +236,7 @@
 </table><h3>
 <a name="mem%C3%B3ria-de-instru%C3%A7%C3%B5esdados" class="anchor" href="#mem%C3%B3ria-de-instru%C3%A7%C3%B5esdados"><span class="octicon octicon-link"></span></a>Memória de Instruções/Dados</h3>
 
-<p><img src="/Documenta%C3%A7%C3%A3o/Memory.png" alt="Memory" title="Memory"></p>
+<p><img src="/upci//Documenta%C3%A7%C3%A3o/Memory.png" alt="Memory" title="Memory"></p>
 
 <p>O módulo de memória deve conter 8 'pinos':  </p>
 
@@ -271,13 +271,13 @@
 
 <p>Desta forma, decidiu-se que ao realizar acesso a memória, o seguinte mapeamento seria feito:</p>
 
-<p><img src="/Documenta%C3%A7%C3%A3o/MMIO.png" alt="MMIO" title="MMIO"></p>
+<p><img src="/upci//Documenta%C3%A7%C3%A3o/MMIO.png" alt="MMIO" title="MMIO"></p>
 
 <p>Assim, tanto o módulo de memória quanto a controladora de IO deverão ouvir constantemente pelas requisições, mas só deverão responder caso o endereço a ser operado esteja dentro dos seus limites.</p>
 
 <p>As entradas e saídas da controladora de IO são semelhantes a do módulo de Memória, isto é, possuem a mesma interface. A entidade pode ser visualizada na figura a seguir.</p>
 
-<p><img src="/Documenta%C3%A7%C3%A3o/IO.png" alt="IO" title="IO"></p>
+<p><img src="/upci//Documenta%C3%A7%C3%A3o/IO.png" alt="IO" title="IO"></p>
 
 <p>Estão omitidas dessa imagem, entretanto, as conexões com os dispositivos de entrada e saída propriamente ditos, dado que isto depende de quais serão implementados.</p>
 
@@ -317,7 +317,7 @@ Dessa forma, a Unidade de Controle deve ter um clock e reset, conexão com o bar
 <li>WAKE_signal (novo sinal, de entrada, que serve para sair do estado de WAIT)</li>
 </ul><p>A Unidade de controle pode ser implementada por uma máquina de estado que controla o fluxo de sinais no processador. O diagrama da máquina de estado pode ser conferido na imagem abaixo.</p>
 
-<p><img src="/Documenta%C3%A7%C3%A3o/UnidadeDeControle.png" alt="Basic Processor Controller State Machine" title="Basic Processor Controller State Machine"></p>
+<p><img src="/upci//Documenta%C3%A7%C3%A3o/UnidadeDeControle.png" alt="Basic Processor Controller State Machine" title="Basic Processor Controller State Machine"></p>
 
 <table>
 <thead><tr>
