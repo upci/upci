@@ -3,7 +3,7 @@
 
 > Inspiração: Design Recipes for FPGAs: Using Verilog and VHDL (Embedded Technology) 
 
-Projeto final da disciplina Prototipação de Circuitos Integrados. POLI/UPE, 2014-1.
+Projeto final da disciplina Prototipação de Circuitos Integrados - POLI/UPE, 2014-1. Desenvolvido utilizando o Quartus II 13.0 sp1.
 
 ## Introdução
 
